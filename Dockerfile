@@ -1,4 +1,4 @@
-FROM docker-registry.default.svc:5000/openshift/jenkins@sha256:02310a4743e1dddb29b37a75ebf10ad0279621b31f31b3f1201433c59736696c as jenkins
+FROM "docker-registry.default.svc:5000/openshift/jenkins@sha256:02310a4743e1dddb29b37a75ebf10ad0279621b31f31b3f1201433c59736696c" as jenkins
 
 USER root
 WORKDIR /usr/lib/jenkins/
